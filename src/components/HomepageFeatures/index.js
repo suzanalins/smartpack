@@ -62,3 +62,11 @@ export default function HomepageFeatures() {
     </section>
   );
 }
+
+export default function Cores() {
+  return (
+    <section>
+      Teste cores
+    </section>
+  )
+}

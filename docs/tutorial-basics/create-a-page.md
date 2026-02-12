@@ -2,42 +2,23 @@
 sidebar_position: 1
 ---
 
-# Create a Page
 
-Add **Markdown or React** files to `src/pages` to create a **standalone page**:
+# Cores
 
-- `src/pages/index.js` → `localhost:3000/`
-- `src/pages/foo.md` → `localhost:3000/foo`
-- `src/pages/foo/bar.js` → `localhost:3000/foo/bar`
+Falando sobre a identidade visual do projeto, optamos por escolher tons de azul
 
-## Create your first React Page
+<img src="/img/azul-escuro.png" />
+O azul escuro transmite segurança e estabilidade, reforçando a confiança necessária em um ambiente baseado em dados técnicos e análises de viabilidade
 
-Create a file at `src/pages/my-react-page.js`:
 
-```jsx title="src/pages/my-react-page.js"
-import React from 'react';
-import Layout from '@theme/Layout';
 
-export default function MyReactPage() {
-  return (
-    <Layout>
-      <h1>My React page</h1>
-      <p>This is a React page</p>
-    </Layout>
-  );
-}
-```
+<img src="/img/azul-medio.png" />
+O azul médio representa tecnologia e base de dados, conectando diretamente a solução ao contexto do SAP e à proposta de inteligência aplicada.
 
-A new page is now available at [http://localhost:3000/my-react-page](http://localhost:3000/my-react-page).
 
-## Create your first Markdown Page
 
-Create a file at `src/pages/my-markdown-page.md`:
+<img src="/img/azul-claro.png" />
+Já o azul claro simboliza clareza e organização, refletindo o objetivo do projeto: transformar dados complexos em entendimento acessível.
 
-```mdx title="src/pages/my-markdown-page.md"
-# My Markdown page
 
-This is a Markdown page
-```
-
-A new page is now available at [http://localhost:3000/my-markdown-page](http://localhost:3000/my-markdown-page).
+**Além disso, o uso do azul cria uma associação visual com o próprio SAP, facilitando a familiaridade e a aceitação da ferramenta pelos colaboradores.**
