@@ -6,48 +6,23 @@ sidebar_position: 2
 
 **Elementos utilizados na logo:**
 
-## Create your first Doc
+<center>
 
-Create a Markdown file at `docs/hello.md`:
+<img src="/img/seta.png" />
+A seta circular representa o processo contínuo e o fluxo de dados.
 
-```md title="docs/hello.md"
-# Hello
+<img src="/img/brilhos.png" />
+Os brilhos representam a Otimização, Inteligência e a Inovação contínua, sendo exatamente o que a Inteligência Artificial representa dentro do nosso projeto, transformando dados brutos em entendimento e apresentando uma otimização no processo de logística de embalagens.
 
-This is my **first Docusaurus document**!
-```
+<img src="/img/box.png" />
+A caixa, as embalagens e o armazenamento seguro de dados.
 
-A new document is now available at [http://localhost:3000/docs/hello](http://localhost:3000/docs/hello).
+</center>
 
-## Configure the Sidebar
+**Todos esses elementos estão inseridos de forma estratégica representando embalagens e dados seguros em um processo de otimização e inteligência constante.**
 
-Docusaurus automatically **creates a sidebar** from the `docs` folder.
 
-Add metadata to customize the sidebar label and position:
 
-```md title="docs/hello.md" {1-4}
----
-sidebar_label: 'Hi!'
-sidebar_position: 3
----
 
-# Hello
 
-This is my **first Docusaurus document**!
-```
 
-It is also possible to create your sidebar explicitly in `sidebars.js`:
-
-```js title="sidebars.js"
-export default {
-  tutorialSidebar: [
-    'intro',
-    // highlight-next-line
-    'hello',
-    {
-      type: 'category',
-      label: 'Tutorial',
-      items: ['tutorial-basics/create-a-document'],
-    },
-  ],
-};
-```
